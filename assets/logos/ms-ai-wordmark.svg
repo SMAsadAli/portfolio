@@ -1,0 +1,11 @@
+<svg width="720" height="180" viewBox="0 0 720 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ms.ai wordmark</title>
+  <desc id="desc">A restrained wordmark for ms.ai with a boxed monogram and classic lettering.</desc>
+  <rect x="12" y="12" width="696" height="156" rx="24" stroke="#D9DDD6" stroke-width="2"/>
+  <rect x="42" y="42" width="96" height="96" rx="20" fill="#111315"/>
+  <path d="M64 112V68H72L89 95L106 68H114V112H104V84L90 106H88L74 84V112H64Z" fill="#F3EFE7"/>
+  <path d="M584 99C585.9 113.7 596.7 121 614 121C630.4 121 639 114.6 639 105.5C639 96.8 632.5 92.9 613.3 89L603.9 87C579.3 81.8 569.5 72.8 569.5 56.5C569.5 35.9 587.4 22 614.4 22C641.1 22 658.5 35 661.2 57.8H643.4C640.8 44.6 631.1 37.8 614.1 37.8C598.2 37.8 588.3 44.7 588.3 54.8C588.3 63.4 594.7 68.2 612 71.8L621.5 73.8C648.1 79.5 657.8 87.7 657.8 103.2C657.8 125.2 638.5 137 611.9 137C583.8 137 566.3 123.8 565.3 99H584Z" fill="#D9DDD6"/>
+  <circle cx="542" cy="109" r="6" fill="#6D8A86"/>
+  <text x="172" y="117" fill="#F3EFE7" font-family="Baskerville, Georgia, 'Times New Roman', serif" font-size="88" letter-spacing="1.5">ms</text>
+  <text x="544" y="117" fill="#F3EFE7" font-family="Baskerville, Georgia, 'Times New Roman', serif" font-size="88" letter-spacing="1.5">ai</text>
+</svg>
