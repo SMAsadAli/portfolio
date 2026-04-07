@@ -37,6 +37,7 @@ body {
     linear-gradient(180deg, #0f1113 0%, #13181b 48%, #0f1113 100%);
   color: var(--paper);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body.menu-open {
@@ -187,11 +188,35 @@ h3 {
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: 0.8rem;
 }
 
-.brand-mark {
-  height: 2.4rem;
-  width: auto;
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.65rem;
+  height: 2.65rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 0.95rem;
+  background:
+    radial-gradient(circle at top, rgba(109, 138, 134, 0.18), transparent 65%),
+    rgba(243, 239, 231, 0.04);
+  color: var(--paper);
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.08em;
+  line-height: 1;
+  box-shadow: inset 0 1px 0 rgba(243, 239, 231, 0.07);
+}
+
+.brand-wordmark {
+  color: var(--paper);
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.45rem;
+  letter-spacing: -0.06em;
+  line-height: 1;
 }
 
 .site-nav {
@@ -423,26 +448,47 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  align-content: start;
 }
 
 .stat-card {
-  min-height: 10rem;
+  min-height: 12.5rem;
   padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 0.9rem;
   background: rgba(19, 24, 27, 0.92);
+}
+
+.stat-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: rgba(217, 221, 214, 0.58);
 }
 
 .stat-value {
   font-family: "Fraunces", Georgia, serif;
-  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
   line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+.stat-value-compact {
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(1.45rem, 2vw, 1.85rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.05em;
+  max-width: 7ch;
 }
 
 .stat-label {
+  align-self: end;
   color: rgba(243, 239, 231, 0.72);
   font-size: 0.95rem;
+  line-height: 1.45;
 }
 
 .services-grid,
@@ -601,6 +647,10 @@ h3 {
 }
 
 @media (max-width: 1100px) {
+  .hero {
+    padding-top: 4.2rem;
+  }
+
   .hero-grid,
   .about-grid,
   .contact-card {
@@ -621,9 +671,14 @@ h3 {
 }
 
 @media (max-width: 860px) {
+  .site-header {
+    padding: 0.85rem 0;
+  }
+
   .header-inner {
     grid-template-columns: auto auto;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .header-cta {
@@ -683,6 +738,10 @@ h3 {
     display: none;
   }
 
+  .hero-grid {
+    gap: 1.25rem;
+  }
+
   .services-grid,
   .stack-grid,
   .about-panels,
@@ -691,15 +750,55 @@ h3 {
   }
 
   .section {
-    padding: 5rem 0;
+    padding: 4.5rem 0;
   }
 
   h1 {
     max-width: 100%;
+    font-size: clamp(2.8rem, 10vw, 4.6rem);
+    line-height: 0.96;
   }
 
   h2 {
     max-width: 14ch;
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .hero-intro,
+  .section-heading p,
+  .service-card p,
+  .work-card p,
+  .about-copy p,
+  .contact-copy p {
+    font-size: 1rem;
+  }
+
+  .trust-line {
+    margin-top: 1.6rem;
+    padding-top: 1.2rem;
+  }
+
+  .stat-card,
+  .service-card,
+  .work-card,
+  .stack-card {
+    min-height: auto;
+  }
+
+  .stat-card {
+    gap: 0.65rem;
+  }
+
+  .stat-value {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+  }
+
+  .stat-value-compact {
+    max-width: none;
+  }
+
+  .contact-card {
+    gap: 1.35rem;
   }
 }
 
@@ -709,7 +808,11 @@ h3 {
   }
 
   .hero {
-    padding-top: 4rem;
+    padding-top: 3.4rem;
+  }
+
+  .site-header {
+    padding: 0.7rem 0;
   }
 
   .hero-copy,
@@ -731,6 +834,68 @@ h3 {
     border-radius: 1rem;
   }
 
+  .brand {
+    gap: 0.55rem;
+  }
+
+  .brand-badge {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .brand-wordmark {
+    font-size: 1.18rem;
+  }
+
+  .nav-toggle {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .section {
+    padding: 4rem 0;
+  }
+
+  .section-heading {
+    margin-bottom: 2rem;
+  }
+
+  .eyebrow,
+  .section-label,
+  .panel-label,
+  .card-index,
+  .work-tag {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+  }
+
+  h1 {
+    font-size: clamp(2.35rem, 13vw, 3.3rem);
+    line-height: 0.94;
+  }
+
+  h2 {
+    max-width: 100%;
+    font-size: clamp(1.85rem, 9vw, 2.5rem);
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 1.12rem;
+  }
+
+  .hero-intro {
+    margin-top: 1.15rem;
+    font-size: 0.98rem;
+  }
+
+  .hero-actions,
+  .contact-actions {
+    gap: 0.75rem;
+  }
+
   .hero-actions,
   .contact-actions {
     grid-template-columns: 1fr;
@@ -741,8 +906,76 @@ h3 {
     width: 100%;
   }
 
+  .panel-list {
+    gap: 0.7rem;
+  }
+
+  .panel-list li,
+  .trust-line,
+  .stat-label,
+  .chip-list li,
+  .work-card-top a,
+  .muted-link {
+    font-size: 0.92rem;
+  }
+
+  .work-card-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .chip-list {
+    gap: 0.5rem;
+  }
+
+  .chip-list li {
+    padding: 0.45rem 0.72rem;
+  }
+
+  .contact-card {
+    padding: 1.25rem;
+  }
+
   .footer-inner {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: min(var(--max-width), calc(100% - 1rem));
+  }
+
+  .hero-copy,
+  .hero-panel,
+  .service-card,
+  .work-card,
+  .stack-card,
+  .about-panel,
+  .contact-card {
+    border-radius: 1.1rem;
+  }
+
+  .hero-copy {
+    padding: 1.1rem;
+  }
+
+  .hero-copy::before {
+    inset: 0.55rem;
+  }
+
+  h1 {
+    font-size: clamp(2.05rem, 12vw, 2.8rem);
+  }
+
+  .button {
+    min-height: 3rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .site-nav {
+    left: 0.5rem;
+    right: 0.5rem;
   }
 }
 
