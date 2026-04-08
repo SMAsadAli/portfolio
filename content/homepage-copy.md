@@ -7,7 +7,7 @@ Title:
 
 Description:
 
-`ms.ai is a compact engineering agency delivering backend, cloud, and full-stack execution for teams building, modernizing, or maintaining software products.`
+`ms.ai is a compact engineering agency delivering backend, cloud, and full-stack execution for teams building, stabilizing, or modernizing software products.`
 
 ## Header
 Brand:
@@ -29,11 +29,11 @@ Eyebrow:
 
 Headline:
 
-`We build and modernize software systems companies need to rely on.`
+`We build, stabilize, and modernize software systems businesses rely on.`
 
 Supporting copy:
 
-`ms.ai is a compact engineering agency focused on backend-heavy products, cloud infrastructure, and end-to-end delivery. We help teams ship new systems, stabilize legacy platforms, and move critical software forward without adding unnecessary complexity.`
+`ms.ai is a compact engineering agency for backend-heavy products, cloud infrastructure, and long-term delivery. We help teams launch new systems, modernize aging platforms, and bring clarity to software that has become difficult to maintain.`
 
 Primary CTA:
 
@@ -45,7 +45,7 @@ Secondary CTA:
 
 Trust line:
 
-`8 years of engineering experience across healthcare, cloud migration, IoT platforms, and production backend systems.`
+`8+ years of engineering experience across healthcare, cloud migration, marketplaces, IoT platforms, and production backend systems.`
 
 ## Services
 Section title:
@@ -99,7 +99,7 @@ Section title:
 
 Section intro:
 
-`A few examples of the systems and product environments this work is built around.`
+`A few representative environments this work has been shaped by: healthcare adjudication, cloud migration, property marketplaces, and IoT platforms.`
 
 ### Project 1
 Name:
@@ -140,6 +140,25 @@ Highlights:
 `Backend scalability improvements`
 
 ### Project 3
+Name:
+
+`Zameen`
+
+Label:
+
+`Marketplace platform experience`
+
+Copy:
+
+`Experience inside a large-scale property marketplace environment where backend reliability, product workflows, and user-facing platform behavior matter at scale.`
+
+Highlights:
+
+`Marketplace platform context`
+`User-facing product workflows`
+`Backend-heavy delivery`
+
+### Project 4
 Name:
 
 `Karousels`
@@ -204,7 +223,7 @@ Section title:
 
 Copy:
 
-`ms.ai is a compact engineering agency built around senior software-delivery experience. The core of the work is backend engineering, cloud execution, and end-to-end problem solving for teams that need reliable technical ownership. The business starts from strong technical delivery and is being shaped into a broader multi-person services company over time.`
+`ms.ai is a compact engineering agency built around senior technical delivery and is being shaped into a broader multi-person services company. The core of the work is backend engineering, cloud execution, and end-to-end problem solving for teams that need reliable technical ownership.`
 
 Secondary copy:
 

@@ -47,7 +47,7 @@ Untangle legacy logic, decompose monoliths, improve architecture boundaries, and
 - 8 years of software-engineering experience
 - Backend-focused full-stack background
 - Production work across AWS and GCP
-- Experience in healthcare, cloud migration, and IoT software
+- Experience in healthcare, cloud migration, marketplaces, and IoT software
 - Hands-on delivery in modernization, microservices, CI/CD, and secure debugging tooling
 
 ## Selected Work Shortlist For Version 1
@@ -57,11 +57,11 @@ Senior Software Engineer working on resolver-based adjudication modernization. P
 ### Arthur Technologies
 Senior cloud backend work focused on migrating infrastructure from AWS to GCP and refactoring a monolith into Fastify and PostgreSQL-based microservices.
 
+### Zameen
+Marketplace-platform experience inside a large-scale property product environment, with work shaped by user-facing product workflows and backend reliability at scale.
+
 ### Karousels
 Full-stack engineering on an IoT network-management platform built with Node.js, GraphQL, and PostgreSQL, with CI/CD and Terraform-based deployment work.
-
-## Note On Zameen
-You mentioned `Zameen` as a project to feature. The resume text available in this repo context gives clean public-safe detail for `Karousels` instead. For version 1 copy, use `Karousels` unless you provide a short public summary for `Zameen`.
 
 ## Messaging Guardrails
 - Do not present ms.ai like a large agency

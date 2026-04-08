@@ -537,7 +537,7 @@ h3 {
 }
 
 .work-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .stack-grid {
@@ -579,6 +579,10 @@ h3 {
   justify-content: space-between;
   gap: 1rem;
   align-items: flex-start;
+}
+
+.work-card h3 {
+  max-width: 18ch;
 }
 
 .work-card-top a,
