@@ -185,6 +185,10 @@ h3 {
   gap: 1.5rem;
 }
 
+.header-inner > * {
+  min-width: 0;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -340,9 +344,16 @@ h3 {
   align-items: stretch;
 }
 
+.hero-grid > *,
+.about-grid > *,
+.contact-card > * {
+  min-width: 0;
+}
+
 .hero-copy,
 .hero-panel {
   position: relative;
+  min-width: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015));
@@ -514,6 +525,7 @@ h3 {
 .work-card,
 .stack-card,
 .about-panel {
+  min-width: 0;
   padding: 1.5rem;
   box-shadow: var(--shadow-soft);
 }
@@ -873,7 +885,7 @@ h3 {
 
   h1 {
     font-size: clamp(2.35rem, 13vw, 3.3rem);
-    line-height: 0.94;
+    line-height: 0.92;
   }
 
   h2 {
@@ -965,7 +977,7 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.05rem, 12vw, 2.8rem);
+    font-size: clamp(1.95rem, 11.5vw, 2.6rem);
   }
 
   .button {
