@@ -1,6 +1,6 @@
-# ms.ai
+# Asad Shah Portfolio
 
-Single-page portfolio and services site for `ms.ai`, built as a lightweight static site for GitHub Pages.
+Single-page personal portfolio for Asad Shah, built as a lightweight static site for GitHub Pages.
 
 ## Stack
 - HTML
@@ -9,12 +9,12 @@ Single-page portfolio and services site for `ms.ai`, built as a lightweight stat
 - GitHub Pages
 
 ## Project Structure
-- `index.html`: page structure and metadata
+- `index.html`: page structure, homepage content, and metadata
 - `styles.css`: design system, layout, and responsive rules
 - `script.js`: mobile navigation and small interaction logic
 - `favicon.svg`: favicon asset
-- `assets/logos/`: logo and wordmark assets
-- `assets/social/`: social preview assets
+- `assets/logos/`: wordmark and logo assets
+- `assets/social/`: social preview source and generated assets
 - `content/`: working copy and planning material
 
 ## Local Preview
@@ -28,21 +28,19 @@ python3 -m http.server 4173
 
 Then open `http://127.0.0.1:4173`.
 
-## GitHub Pages Publish
-1. Create or use a public GitHub repository.
-2. Push this project to the `main` branch.
-3. Open `Settings -> Pages`.
-4. Set the source to `Deploy from a branch`.
-5. Choose `main` and `/root`.
-6. Save and wait for the site to publish.
-
-The initial GitHub Pages URL will be:
+## GitHub Pages
+The live site is expected at:
 
 ```text
-https://yourusername.github.io/repository-name
+https://smasadali.github.io/portfolio/
 ```
+
+GitHub Pages should be configured with:
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/root`
 
 ## Notes
 - `.nojekyll` is included for GitHub Pages compatibility.
 - Social metadata is wired in `index.html`.
-- If the final repository name changes, update any future canonical/live URLs accordingly.
+- The social preview PNG is generated from `assets/social/og-card.html`.

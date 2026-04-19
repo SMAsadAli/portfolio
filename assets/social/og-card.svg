@@ -2,20 +2,19 @@
   <rect width="1200" height="630" fill="#101315"/>
   <rect x="24" y="24" width="1152" height="582" rx="40" fill="url(#panel)" stroke="rgba(217,221,214,0.14)"/>
   <rect x="68" y="68" width="96" height="96" rx="26" fill="#111315" stroke="#D9DDD6" stroke-opacity="0.18" stroke-width="2"/>
-  <path d="M92 131V99H97L116 117L135 99H140V131H129V112L118 124H114L103 112V131H92Z" fill="#F3EFE7"/>
+  <text x="116" y="128" text-anchor="middle" fill="#F3EFE7" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" letter-spacing="-2.4">AS</text>
   <circle cx="1092" cy="94" r="8" fill="#6D8A86"/>
-  <text x="194" y="128" fill="#F3EFE7" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" letter-spacing="-2.4">ms.ai</text>
-  <text x="70" y="232" fill="#D9DDD6" fill-opacity="0.7" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">BACKEND-FIRST ENGINEERING</text>
+  <text x="194" y="128" fill="#F3EFE7" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" letter-spacing="-2.4">Asad Shah</text>
+  <text x="70" y="232" fill="#D9DDD6" fill-opacity="0.7" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">SENIOR FULL-STACK ENGINEER</text>
   <text x="70" y="334" fill="#F3EFE7" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" letter-spacing="-3.2">
-    <tspan x="70" dy="0">We build, stabilize, and</tspan>
-    <tspan x="70" dy="88">modernize software systems</tspan>
-    <tspan x="70" dy="88">businesses rely on.</tspan>
+    <tspan x="70" dy="0">I build reliable</tspan>
+    <tspan x="70" dy="88">backend systems.</tspan>
   </text>
   <text x="72" y="552" fill="#D9DDD6" fill-opacity="0.82" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="500">
-    Backend, cloud, and long-term product delivery for teams working on critical systems.
+    Backend, cloud, and long-term delivery for products that need reliable ownership.
   </text>
   <rect x="842" y="430" width="244" height="54" rx="27" fill="#F3EFE7"/>
-  <text x="964" y="465" text-anchor="middle" fill="#111315" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700">ms.ai</text>
+  <text x="964" y="465" text-anchor="middle" fill="#111315" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Asad Shah</text>
   <defs>
     <linearGradient id="panel" x1="100" y1="54" x2="1098" y2="576" gradientUnits="userSpaceOnUse">
       <stop stop-color="#1B2125"/>

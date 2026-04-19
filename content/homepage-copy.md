@@ -1,26 +1,26 @@
-# ms.ai Homepage Copy Draft
+# Asad Shah Homepage Copy Draft
 
 ## Meta
 Title:
 
-`ms.ai | Backend-First Engineering For Long-Running Products`
+`Asad Shah | Senior Full-Stack & Backend Software Engineer`
 
 Description:
 
-`ms.ai is a compact engineering agency delivering backend, cloud, and full-stack execution for teams building, stabilizing, or modernizing software products.`
+`Asad Shah is a senior full-stack software engineer focused on backend-heavy systems, cloud delivery, modernization, and reliable end-to-end product engineering.`
 
 ## Header
 Brand:
 
-`ms.ai`
+`Asad Shah`
 
 Navigation:
 
-`Services` `Work` `About` `Contact`
+`Capabilities` `Work` `About` `Contact`
 
 Primary CTA:
 
-`Start a Conversation`
+`Contact Me`
 
 ## Hero
 Eyebrow:
@@ -29,73 +29,73 @@ Eyebrow:
 
 Headline:
 
-`We build, stabilize, and modernize software systems businesses rely on.`
+`I build reliable backend systems.`
 
 Supporting copy:
 
-`ms.ai is a compact engineering agency for backend-heavy products, cloud infrastructure, and long-term delivery. We help teams launch new systems, modernize aging platforms, and bring clarity to software that has become difficult to maintain.`
+`I'm Asad Shah, a full-stack software engineer with 8+ years of experience across healthcare, cloud migration, marketplaces, IoT platforms, and production backend systems. I help teams design, ship, stabilize, and maintain software that has to work reliably over time.`
 
 Primary CTA:
 
-`Discuss Your Project`
+`Contact Me`
 
 Secondary CTA:
 
-`View Selected Work`
+`View Experience`
 
 Trust line:
 
 `8+ years of engineering experience across healthcare, cloud migration, marketplaces, IoT platforms, and production backend systems.`
 
-## Services
+## Capabilities
 Section title:
 
-`What We Do`
+`What I Do`
 
 Section intro:
 
-`We focus on the work that matters when software needs to be stable, scalable, and maintainable over time.`
+`I focus on the work that matters when software needs to stay stable, scalable, and maintainable over time.`
 
-### Service 1
+### Capability 1
 Title:
 
 `Backend Engineering`
 
 Copy:
 
-`Design and build APIs, services, business logic, and data flows for products that need reliable long-term ownership.`
+`I design and build APIs, services, business logic, and data flows for products that need reliable long-term ownership.`
 
-### Service 2
+### Capability 2
 Title:
 
 `Cloud And Platform Engineering`
 
 Copy:
 
-`Improve infrastructure, deployments, CI/CD, and operational foundations across AWS and GCP so teams can ship with more confidence.`
+`I improve infrastructure, deployments, CI/CD, and operational foundations across AWS and GCP so teams can ship with more confidence.`
 
-### Service 3
+### Capability 3
 Title:
 
 `Full-Stack Product Delivery`
 
 Copy:
 
-`Take features from architecture through implementation when the work spans backend, integrations, data, and product surfaces.`
+`I take features from architecture through implementation when the work spans backend, integrations, data, and product surfaces.`
 
-### Service 4
+### Capability 4
 Title:
 
 `System Design And Modernization`
 
 Copy:
 
-`Refactor monoliths, reduce technical debt, and reshape legacy systems into architecture that teams can work with over the long run.`
+`I refactor monoliths, reduce technical debt, and reshape legacy systems into architecture teams can work with over the long run.`
 
-## Selected Work
+## Selected Experience
 Section title:
 
-`Selected Work`
+`Selected Experience`
 
 Section intro:
 
@@ -112,7 +112,7 @@ Label:
 
 Copy:
 
-`Led backend modernization work around resolver-based adjudication systems, secure claim-debugging tooling, and delivery quality for production clinical logic.`
+`I worked on backend modernization around resolver-based adjudication systems, secure claim-debugging tooling, and delivery quality for production clinical logic.`
 
 Highlights:
 
@@ -131,7 +131,7 @@ Label:
 
 Copy:
 
-`Supported migration from AWS to GCP and helped refactor a monolithic backend into service-oriented Fastify and PostgreSQL-based architecture.`
+`I supported migration from AWS to GCP and helped refactor a monolithic backend into service-oriented Fastify and PostgreSQL-based architecture.`
 
 Highlights:
 
@@ -150,7 +150,7 @@ Label:
 
 Copy:
 
-`Experience inside a large-scale property marketplace environment where backend reliability, product workflows, and user-facing platform behavior matter at scale.`
+`I gained experience inside a large-scale property marketplace environment where backend reliability, product workflows, and user-facing platform behavior matter at scale.`
 
 Highlights:
 
@@ -169,7 +169,7 @@ Label:
 
 Copy:
 
-`Built full-stack and backend-heavy functionality for an IoT network-management platform using Node.js, GraphQL, PostgreSQL, CI/CD, and Terraform.`
+`I built full-stack and backend-heavy functionality for an IoT network-management platform using Node.js, GraphQL, PostgreSQL, CI/CD, and Terraform.`
 
 Highlights:
 
@@ -219,24 +219,24 @@ Applied AI Tooling:
 ## About
 Section title:
 
-`About ms.ai`
+`About`
 
 Copy:
 
-`ms.ai is a compact engineering agency built around senior technical delivery and is being shaped into a broader multi-person services company. The core of the work is backend engineering, cloud execution, and end-to-end problem solving for teams that need reliable technical ownership.`
+`I'm a software engineer based in Lahore, Pakistan, focused on backend engineering, cloud execution, and end-to-end product delivery. My work is strongest when a system needs practical architecture, maintainable code, and clear ownership across important product surfaces.`
 
 Secondary copy:
 
-`The goal is straightforward: help companies move important systems forward with pragmatic engineering, clean execution, and long-term thinking.`
+`The goal is straightforward: help teams move critical software forward with pragmatic engineering, clear execution, and long-term thinking.`
 
 ## Contact
 Section title:
 
-`Let’s Talk`
+`Let's Talk`
 
 Copy:
 
-`If you need backend ownership, cloud migration support, platform cleanup, or a reliable engineering partner for a long-running product, get in touch.`
+`If you need senior backend, full-stack, cloud, or modernization help, reach out. I'm available for engineering roles, consulting, and project-based work.`
 
 Primary contact:
 
@@ -248,11 +248,11 @@ Secondary contact:
 
 CTA:
 
-`Start A Conversation`
+`Contact Me`
 
 ## Notes For Build Phase
-- Keep the page single-column with strong section rhythm
-- Use short cards for services and projects
+- Keep the page personal and senior, not agency-oriented
+- Use short cards for capabilities and selected experience
 - Avoid logo-wall clutter
 - Use email and LinkedIn as the main conversion paths
 - Keep AI present but secondary to backend and platform credibility
