@@ -47,6 +47,15 @@ Trust line:
 
 `8+ years of engineering experience across healthcare, cloud migration, marketplaces, IoT platforms, and production backend systems.`
 
+Hero panel:
+
+`Where I can help`
+
+`Designing and building reliable APIs, services, and backend workflows`
+`Modernizing legacy systems, refactoring monoliths, and reducing technical debt`
+`Cloud migration, CI/CD cleanup, infrastructure hardening, and deployment reliability`
+`Taking features end to end across backend, data, integrations, and product surfaces`
+
 ## Capabilities
 Section title:
 
